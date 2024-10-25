@@ -1,0 +1,3 @@
+D:/CLionProjects/DBUS/cmake-build-debug-mingw-stm32/CMakeFiles/DBUS.elf.dir
+D:/CLionProjects/DBUS/cmake-build-debug-mingw-stm32/CMakeFiles/edit_cache.dir
+D:/CLionProjects/DBUS/cmake-build-debug-mingw-stm32/CMakeFiles/rebuild_cache.dir

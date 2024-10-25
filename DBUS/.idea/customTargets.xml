@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="3647f028-96fa-49b0-91f7-ac24baf478c8" name="DBUS.elf" defaultType="TOOL">
+      <configuration id="8b54705e-0e94-4052-9458-a88ff00fc278" name="DBUS.elf" toolchainName="MinGW-STM32" />
+    </target>
+  </component>
+</project>

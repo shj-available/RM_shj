@@ -1,0 +1,3 @@
+D:/CLionProjects/CAN_BoardBoard/cmake-build-debug/CMakeFiles/CAN_BoardBoard.elf.dir
+D:/CLionProjects/CAN_BoardBoard/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CLionProjects/CAN_BoardBoard/cmake-build-debug/CMakeFiles/rebuild_cache.dir
