@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration name="OCD CAN_MotorControl" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CAN_MotorControl" TARGET_NAME="CAN_MotorControl.elf" version="1" RUN_TARGET_PROJECT_NAME="CAN_MotorControl" RUN_TARGET_NAME="CAN_MotorControl.elf">
+  <configuration default="false" name="OCD CAN_MotorControl" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CAN_MotorControl" TARGET_NAME="CAN_MotorControl.elf" CONFIG_NAME="Debug-MinGW-STM32" version="1" RUN_TARGET_PROJECT_NAME="CAN_MotorControl" RUN_TARGET_NAME="CAN_MotorControl.elf">
     <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="board/STlink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
       <debugger kind="GDB" isBundled="true" />
     </openocd>

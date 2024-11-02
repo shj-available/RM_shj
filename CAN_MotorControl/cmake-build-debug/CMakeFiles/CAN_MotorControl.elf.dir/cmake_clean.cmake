@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CAN_MotorControl.elf"
   "CAN_MotorControl.elf.manifest"
   "CAN_MotorControl.elf.pdb"
+  "CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/PID.cpp.obj"
+  "CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/PID.cpp.obj.d"
   "CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/callpack.c.obj"
   "CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/callpack.c.obj.d"
   "CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/can.c.obj"
@@ -56,6 +58,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang ASM C)
+foreach(lang ASM C CXX)
   include(CMakeFiles/CAN_MotorControl.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

@@ -108,8 +108,8 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    HAL_UART_Receive(&huart7, message, 1, 50);
-    HAL_UART_Transmit(&huart7, message, 1, 50);
+    //HAL_UART_Receive(&huart7, message, 1, 50);
+    //HAL_UART_Transmit(&huart7, message, 1, 50);
     //HAL_Delay(1000);
     //HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin);
   }

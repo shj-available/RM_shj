@@ -43,4 +43,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CAN_MotorControl.elf.dir/DependInfo.cmake"
+  "CMakeFiles/CMakeLists.dir/DependInfo.cmake"
   )

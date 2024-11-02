@@ -110,19 +110,19 @@ CMakeFiles/DBUS.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/DBUS.elf.dir/Core/Src/gpio.c.s"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CLionProjects\DBUS\Core\Src\gpio.c -o CMakeFiles\DBUS.elf.dir\Core\Src\gpio.c.s
 
-CMakeFiles/DBUS.elf.dir/Core/Src/main.c.obj: CMakeFiles/DBUS.elf.dir/flags.make
-CMakeFiles/DBUS.elf.dir/Core/Src/main.c.obj: D:/CLionProjects/DBUS/Core/Src/main.c
-CMakeFiles/DBUS.elf.dir/Core/Src/main.c.obj: CMakeFiles/DBUS.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\DBUS\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/DBUS.elf.dir/Core/Src/main.c.obj"
-	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DBUS.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\DBUS.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\DBUS.elf.dir\Core\Src\main.c.obj -c D:\CLionProjects\DBUS\Core\Src\main.c
+CMakeFiles/DBUS.elf.dir/Core/Src/main.cpp.obj: CMakeFiles/DBUS.elf.dir/flags.make
+CMakeFiles/DBUS.elf.dir/Core/Src/main.cpp.obj: D:/CLionProjects/DBUS/Core/Src/main.cpp
+CMakeFiles/DBUS.elf.dir/Core/Src/main.cpp.obj: CMakeFiles/DBUS.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\DBUS\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DBUS.elf.dir/Core/Src/main.cpp.obj"
+	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DBUS.elf.dir/Core/Src/main.cpp.obj -MF CMakeFiles\DBUS.elf.dir\Core\Src\main.cpp.obj.d -o CMakeFiles\DBUS.elf.dir\Core\Src\main.cpp.obj -c D:\CLionProjects\DBUS\Core\Src\main.cpp
 
-CMakeFiles/DBUS.elf.dir/Core/Src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/DBUS.elf.dir/Core/Src/main.c.i"
-	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CLionProjects\DBUS\Core\Src\main.c > CMakeFiles\DBUS.elf.dir\Core\Src\main.c.i
+CMakeFiles/DBUS.elf.dir/Core/Src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DBUS.elf.dir/Core/Src/main.cpp.i"
+	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\DBUS\Core\Src\main.cpp > CMakeFiles\DBUS.elf.dir\Core\Src\main.cpp.i
 
-CMakeFiles/DBUS.elf.dir/Core/Src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/DBUS.elf.dir/Core/Src/main.c.s"
-	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CLionProjects\DBUS\Core\Src\main.c -o CMakeFiles\DBUS.elf.dir\Core\Src\main.c.s
+CMakeFiles/DBUS.elf.dir/Core/Src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DBUS.elf.dir/Core/Src/main.cpp.s"
+	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\DBUS\Core\Src\main.cpp -o CMakeFiles\DBUS.elf.dir\Core\Src\main.cpp.s
 
 CMakeFiles/DBUS.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/DBUS.elf.dir/flags.make
 CMakeFiles/DBUS.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: D:/CLionProjects/DBUS/Core/Src/stm32f4xx_hal_msp.c
@@ -450,7 +450,7 @@ DBUS_elf_OBJECTS = \
 "CMakeFiles/DBUS.elf.dir/Core/Src/callback.cpp.obj" \
 "CMakeFiles/DBUS.elf.dir/Core/Src/dma.c.obj" \
 "CMakeFiles/DBUS.elf.dir/Core/Src/gpio.c.obj" \
-"CMakeFiles/DBUS.elf.dir/Core/Src/main.c.obj" \
+"CMakeFiles/DBUS.elf.dir/Core/Src/main.cpp.obj" \
 "CMakeFiles/DBUS.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" \
 "CMakeFiles/DBUS.elf.dir/Core/Src/stm32f4xx_it.c.obj" \
 "CMakeFiles/DBUS.elf.dir/Core/Src/syscalls.c.obj" \
@@ -481,7 +481,7 @@ DBUS_elf_EXTERNAL_OBJECTS =
 DBUS.elf: CMakeFiles/DBUS.elf.dir/Core/Src/callback.cpp.obj
 DBUS.elf: CMakeFiles/DBUS.elf.dir/Core/Src/dma.c.obj
 DBUS.elf: CMakeFiles/DBUS.elf.dir/Core/Src/gpio.c.obj
-DBUS.elf: CMakeFiles/DBUS.elf.dir/Core/Src/main.c.obj
+DBUS.elf: CMakeFiles/DBUS.elf.dir/Core/Src/main.cpp.obj
 DBUS.elf: CMakeFiles/DBUS.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
 DBUS.elf: CMakeFiles/DBUS.elf.dir/Core/Src/stm32f4xx_it.c.obj
 DBUS.elf: CMakeFiles/DBUS.elf.dir/Core/Src/syscalls.c.obj

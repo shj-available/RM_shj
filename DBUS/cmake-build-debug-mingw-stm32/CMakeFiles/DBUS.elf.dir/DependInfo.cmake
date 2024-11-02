@@ -32,7 +32,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/CLionProjects/DBUS/Core/Src/dma.c" "CMakeFiles/DBUS.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/DBUS.elf.dir/Core/Src/dma.c.obj.d"
   "D:/CLionProjects/DBUS/Core/Src/gpio.c" "CMakeFiles/DBUS.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/DBUS.elf.dir/Core/Src/gpio.c.obj.d"
-  "D:/CLionProjects/DBUS/Core/Src/main.c" "CMakeFiles/DBUS.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/DBUS.elf.dir/Core/Src/main.c.obj.d"
   "D:/CLionProjects/DBUS/Core/Src/stm32f4xx_hal_msp.c" "CMakeFiles/DBUS.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" "gcc" "CMakeFiles/DBUS.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d"
   "D:/CLionProjects/DBUS/Core/Src/stm32f4xx_it.c" "CMakeFiles/DBUS.elf.dir/Core/Src/stm32f4xx_it.c.obj" "gcc" "CMakeFiles/DBUS.elf.dir/Core/Src/stm32f4xx_it.c.obj.d"
   "D:/CLionProjects/DBUS/Core/Src/syscalls.c" "CMakeFiles/DBUS.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/DBUS.elf.dir/Core/Src/syscalls.c.obj.d"
@@ -56,6 +55,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/CLionProjects/DBUS/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "CMakeFiles/DBUS.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/DBUS.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj.d"
   "D:/CLionProjects/DBUS/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" "CMakeFiles/DBUS.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" "gcc" "CMakeFiles/DBUS.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj.d"
   "D:/CLionProjects/DBUS/Core/Src/callback.cpp" "CMakeFiles/DBUS.elf.dir/Core/Src/callback.cpp.obj" "gcc" "CMakeFiles/DBUS.elf.dir/Core/Src/callback.cpp.obj.d"
+  "D:/CLionProjects/DBUS/Core/Src/main.cpp" "CMakeFiles/DBUS.elf.dir/Core/Src/main.cpp.obj" "gcc" "CMakeFiles/DBUS.elf.dir/Core/Src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

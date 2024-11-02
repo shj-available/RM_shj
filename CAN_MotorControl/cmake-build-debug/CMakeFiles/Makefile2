@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = D:\CLionProjects\CAN_MotorControl\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/CAN_MotorControl.elf.dir/all
+all: CMakeFiles/CMakeLists.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,6 +72,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/CAN_MotorControl.elf.dir/clean
+clean: CMakeFiles/CMakeLists.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -80,12 +82,12 @@ clean: CMakeFiles/CAN_MotorControl.elf.dir/clean
 CMakeFiles/CAN_MotorControl.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CAN_MotorControl.elf.dir\build.make CMakeFiles/CAN_MotorControl.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CAN_MotorControl.elf.dir\build.make CMakeFiles/CAN_MotorControl.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27 "Built target CAN_MotorControl.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target CAN_MotorControl.elf"
 .PHONY : CMakeFiles/CAN_MotorControl.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CAN_MotorControl.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CAN_MotorControl.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/CAN_MotorControl.elf.dir/rule
@@ -98,6 +100,32 @@ CAN_MotorControl.elf: CMakeFiles/CAN_MotorControl.elf.dir/rule
 CMakeFiles/CAN_MotorControl.elf.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CAN_MotorControl.elf.dir\build.make CMakeFiles/CAN_MotorControl.elf.dir/clean
 .PHONY : CMakeFiles/CAN_MotorControl.elf.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/CMakeLists.dir
+
+# All Build rule for target.
+CMakeFiles/CMakeLists.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeLists.dir\build.make CMakeFiles/CMakeLists.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeLists.dir\build.make CMakeFiles/CMakeLists.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num= "Built target CMakeLists"
+.PHONY : CMakeFiles/CMakeLists.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CMakeLists.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CMakeLists.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/CMakeLists.dir/rule
+
+# Convenience name for target.
+CMakeLists: CMakeFiles/CMakeLists.dir/rule
+.PHONY : CMakeLists
+
+# clean rule for target.
+CMakeFiles/CMakeLists.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeLists.dir\build.make CMakeFiles/CMakeLists.dir/clean
+.PHONY : CMakeFiles/CMakeLists.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

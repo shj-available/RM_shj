@@ -68,10 +68,24 @@ include CMakeFiles/CAN_MotorControl.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 
+CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/PID.cpp.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
+CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/PID.cpp.obj: D:/CLionProjects/CAN_MotorControl/Core/Src/PID.cpp
+CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/PID.cpp.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/PID.cpp.obj"
+	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/PID.cpp.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\PID.cpp.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\PID.cpp.obj -c D:\CLionProjects\CAN_MotorControl\Core\Src\PID.cpp
+
+CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/PID.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/PID.cpp.i"
+	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\CAN_MotorControl\Core\Src\PID.cpp > CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\PID.cpp.i
+
+CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/PID.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/PID.cpp.s"
+	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\CAN_MotorControl\Core\Src\PID.cpp -o CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\PID.cpp.s
+
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/callpack.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/callpack.c.obj: D:/CLionProjects/CAN_MotorControl/Core/Src/callpack.c
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/callpack.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/callpack.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/callpack.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/callpack.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\callpack.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\callpack.c.obj -c D:\CLionProjects\CAN_MotorControl\Core\Src\callpack.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/callpack.c.i: cmake_force
@@ -85,7 +99,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/callpack.c.s: cmake_force
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/can.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/can.c.obj: D:/CLionProjects/CAN_MotorControl/Core/Src/can.c
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/can.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/can.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/can.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\can.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\can.c.obj -c D:\CLionProjects\CAN_MotorControl\Core\Src\can.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/can.c.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/can.c.s: cmake_force
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/gpio.c.obj: D:/CLionProjects/CAN_MotorControl/Core/Src/gpio.c
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/gpio.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\gpio.c.obj -c D:\CLionProjects\CAN_MotorControl\Core\Src\gpio.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/main.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/main.c.obj: D:/CLionProjects/CAN_MotorControl/Core/Src/main.c
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/main.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/main.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\main.c.obj -c D:\CLionProjects\CAN_MotorControl\Core\Src\main.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/main.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: D:/CLionProjects/CAN_MotorControl/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c D:\CLionProjects\CAN_MotorControl\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/stm32f4xx_it.c.obj: D:/CLionProjects/CAN_MotorControl/Core/Src/stm32f4xx_it.c
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\stm32f4xx_it.c.obj -c D:\CLionProjects\CAN_MotorControl\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/syscalls.c.obj: D:/CLionProjects/CAN_MotorControl/Core/Src/syscalls.c
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/syscalls.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\syscalls.c.obj -c D:\CLionProjects\CAN_MotorControl\Core\Src\syscalls.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/sysmem.c.obj: D:/CLionProjects/CAN_MotorControl/Core/Src/sysmem.c
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/sysmem.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\sysmem.c.obj -c D:\CLionProjects\CAN_MotorControl\Core\Src\sysmem.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/system_stm32f4xx.c.obj: D:/CLionProjects/CAN_MotorControl/Core/Src/system_stm32f4xx.c
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Core\Src\system_stm32f4xx.c.obj -c D:\CLionProjects\CAN_MotorControl\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -196,7 +210,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj: D:/CLionProjects/CAN_MotorControl/Core/Startup/startup_stm32f427iihx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/CAN_MotorControl.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/CAN_MotorControl.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\CAN_MotorControl.elf.dir\Core\Startup\startup_stm32f427iihx.s.obj -c D:\CLionProjects\CAN_MotorControl\Core\Startup\startup_stm32f427iihx.s
 
 CMakeFiles/CAN_MotorControl.elf.dir/Core/Startup/startup_stm32f427iihx.s.i: cmake_force
@@ -210,7 +224,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Core/Startup/startup_stm32f427iihx.s.s: cmak
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: D:/CLionProjects/CAN_MotorControl/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c D:\CLionProjects\CAN_MotorControl\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -224,7 +238,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: D:/CLionProjects/CAN_MotorControl/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj -c D:\CLionProjects\CAN_MotorControl\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i: cmake_force
@@ -238,7 +252,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: D:/CLionProjects/CAN_MotorControl/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c D:\CLionProjects\CAN_MotorControl\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -252,7 +266,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: D:/CLionProjects/CAN_MotorControl/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c D:\CLionProjects\CAN_MotorControl\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -266,7 +280,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: D:/CLionProjects/CAN_MotorControl/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c D:\CLionProjects\CAN_MotorControl\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -280,7 +294,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: D:/CLionProjects/CAN_MotorControl/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c D:\CLionProjects\CAN_MotorControl\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -294,7 +308,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: D:/CLionProjects/CAN_MotorControl/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c D:\CLionProjects\CAN_MotorControl\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -308,7 +322,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: D:/CLionProjects/CAN_MotorControl/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c D:\CLionProjects\CAN_MotorControl\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -322,7 +336,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: D:/CLionProjects/CAN_MotorControl/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c D:\CLionProjects\CAN_MotorControl\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: D:/CLionProjects/CAN_MotorControl/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c D:\CLionProjects\CAN_MotorControl\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: D:/CLionProjects/CAN_MotorControl/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\CLionProjects\CAN_MotorControl\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: D:/CLionProjects/CAN_MotorControl/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\CLionProjects\CAN_MotorControl\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: D:/CLionProjects/CAN_MotorControl/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\CLionProjects\CAN_MotorControl\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: D:/CLionProjects/CAN_MotorControl/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\CLionProjects\CAN_MotorControl\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -406,7 +420,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: D:/CLionProjects/CAN_MotorControl/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\CLionProjects\CAN_MotorControl\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -420,7 +434,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/flags.make
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: D:/CLionProjects/CAN_MotorControl/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/CAN_MotorControl.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	D:\app\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\CAN_MotorControl.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\CLionProjects\CAN_MotorControl\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -433,6 +447,7 @@ CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 # Object files for target CAN_MotorControl.elf
 CAN_MotorControl_elf_OBJECTS = \
+"CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/PID.cpp.obj" \
 "CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/callpack.c.obj" \
 "CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/can.c.obj" \
 "CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/gpio.c.obj" \
@@ -463,6 +478,7 @@ CAN_MotorControl_elf_OBJECTS = \
 # External object files for target CAN_MotorControl.elf
 CAN_MotorControl_elf_EXTERNAL_OBJECTS =
 
+CAN_MotorControl.elf: CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/PID.cpp.obj
 CAN_MotorControl.elf: CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/callpack.c.obj
 CAN_MotorControl.elf: CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/can.c.obj
 CAN_MotorControl.elf: CMakeFiles/CAN_MotorControl.elf.dir/Core/Src/gpio.c.obj
@@ -491,7 +507,7 @@ CAN_MotorControl.elf: CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_
 CAN_MotorControl.elf: CMakeFiles/CAN_MotorControl.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 CAN_MotorControl.elf: CMakeFiles/CAN_MotorControl.elf.dir/build.make
 CAN_MotorControl.elf: CMakeFiles/CAN_MotorControl.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking C executable CAN_MotorControl.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\CLionProjects\CAN_MotorControl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable CAN_MotorControl.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CAN_MotorControl.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/CLionProjects/CAN_MotorControl/cmake-build-debug/CAN_MotorControl.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/CLionProjects/CAN_MotorControl/cmake-build-debug/CAN_MotorControl.bin"
