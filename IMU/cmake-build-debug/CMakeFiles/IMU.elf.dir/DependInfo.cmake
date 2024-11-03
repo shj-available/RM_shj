@@ -31,7 +31,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/CLionProjects/IMU/Core/Src/gpio.c" "CMakeFiles/IMU.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/IMU.elf.dir/Core/Src/gpio.c.obj.d"
-  "D:/CLionProjects/IMU/Core/Src/main.c" "CMakeFiles/IMU.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/IMU.elf.dir/Core/Src/main.c.obj.d"
+  "D:/CLionProjects/IMU/Core/Src/spi.c" "CMakeFiles/IMU.elf.dir/Core/Src/spi.c.obj" "gcc" "CMakeFiles/IMU.elf.dir/Core/Src/spi.c.obj.d"
   "D:/CLionProjects/IMU/Core/Src/stm32f4xx_hal_msp.c" "CMakeFiles/IMU.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" "gcc" "CMakeFiles/IMU.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d"
   "D:/CLionProjects/IMU/Core/Src/stm32f4xx_it.c" "CMakeFiles/IMU.elf.dir/Core/Src/stm32f4xx_it.c.obj" "gcc" "CMakeFiles/IMU.elf.dir/Core/Src/stm32f4xx_it.c.obj.d"
   "D:/CLionProjects/IMU/Core/Src/syscalls.c" "CMakeFiles/IMU.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/IMU.elf.dir/Core/Src/syscalls.c.obj.d"
@@ -50,8 +50,11 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/CLionProjects/IMU/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" "gcc" "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj.d"
   "D:/CLionProjects/IMU/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" "gcc" "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj.d"
   "D:/CLionProjects/IMU/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" "gcc" "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj.d"
+  "D:/CLionProjects/IMU/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c" "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj" "gcc" "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj.d"
   "D:/CLionProjects/IMU/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" "gcc" "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj.d"
   "D:/CLionProjects/IMU/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj.d"
+  "D:/CLionProjects/IMU/Core/Src/imu.cpp" "CMakeFiles/IMU.elf.dir/Core/Src/imu.cpp.obj" "gcc" "CMakeFiles/IMU.elf.dir/Core/Src/imu.cpp.obj.d"
+  "D:/CLionProjects/IMU/Core/Src/main.cpp" "CMakeFiles/IMU.elf.dir/Core/Src/main.cpp.obj" "gcc" "CMakeFiles/IMU.elf.dir/Core/Src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

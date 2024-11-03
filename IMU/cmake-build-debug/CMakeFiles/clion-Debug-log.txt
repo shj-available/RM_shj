@@ -14,6 +14,6 @@ C:\Users\sunhongji\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe 
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Minimal optimization, debug info included
--- Configuring done (2.3s)
+-- Configuring done (2.1s)
 -- Generating done (0.0s)
 -- Build files have been written to: D:/CLionProjects/IMU/cmake-build-debug

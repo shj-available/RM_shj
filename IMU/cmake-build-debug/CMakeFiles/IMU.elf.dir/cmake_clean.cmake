@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/IMU.elf.dir/Core/Src/gpio.c.obj"
   "CMakeFiles/IMU.elf.dir/Core/Src/gpio.c.obj.d"
-  "CMakeFiles/IMU.elf.dir/Core/Src/main.c.obj"
-  "CMakeFiles/IMU.elf.dir/Core/Src/main.c.obj.d"
+  "CMakeFiles/IMU.elf.dir/Core/Src/imu.cpp.obj"
+  "CMakeFiles/IMU.elf.dir/Core/Src/imu.cpp.obj.d"
+  "CMakeFiles/IMU.elf.dir/Core/Src/main.cpp.obj"
+  "CMakeFiles/IMU.elf.dir/Core/Src/main.cpp.obj.d"
+  "CMakeFiles/IMU.elf.dir/Core/Src/spi.c.obj"
+  "CMakeFiles/IMU.elf.dir/Core/Src/spi.c.obj.d"
   "CMakeFiles/IMU.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
   "CMakeFiles/IMU.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d"
   "CMakeFiles/IMU.elf.dir/Core/Src/stm32f4xx_it.c.obj"
@@ -40,6 +44,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj.d"
   "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
   "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj.d"
+  "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+  "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj.d"
   "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
   "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj.d"
   "CMakeFiles/IMU.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
@@ -50,6 +56,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang ASM C)
+foreach(lang ASM C CXX)
   include(CMakeFiles/IMU.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()
