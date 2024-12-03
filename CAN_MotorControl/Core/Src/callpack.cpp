@@ -3,7 +3,7 @@
 //
 #include "main.h"
 #include "can.h"
-#include "string.h"
+#include "cstring"
 #include "PID.h"
 
 extern PID speed_pid_controller;

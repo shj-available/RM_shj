@@ -55,11 +55,8 @@ void IMU::BMI088_WriteReg(uint8_t reg, uint8_t write_data) {
     uint8_t tx_data[2];
     tx_data[0] = reg;
     tx_data[1] = write_data;
-    BMI088_ACCEL_NS_L();
-    HAL_Delay(10);
+    HAL_Delay(2);
     HAL_SPI_Transmit(&hspi1,tx_data, 2, 1000);
-    BMI088_ACCEL_NS_H();
-    acc_range = write_data;
 }
 
 void IMU::read_accel() {

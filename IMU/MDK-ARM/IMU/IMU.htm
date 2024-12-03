@@ -3,7 +3,7 @@
 <title>Static Call Graph - [IMU\IMU.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image IMU\IMU.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6190004: Last Updated: Sun Nov  3 01:37:53 2024
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6190004: Last Updated: Thu Nov 14 22:12:13 2024
 <BR><P>
 <H3>Maximum Stack Usage =        200 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -604,7 +604,6 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 <LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU::read_gyro()
 <LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU::read_accel()
-<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU::BMI088_WriteReg(unsigned char, unsigned char)
 <LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IMU::IMU_init()
 <LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
 </UL>
@@ -816,18 +815,17 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[8b]"></a>IMU::BMI088_WriteReg(unsigned char, unsigned char)</STRONG> (Thumb, 76 bytes, Stack size 24 bytes, imu.o(.text._ZN3IMU15BMI088_WriteRegEhh))
-<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = IMU::BMI088_WriteReg(unsigned char, unsigned char) &rArr; HAL_SPI_Transmit &rArr; SPI_WaitFlagStateUntilTimeout
+<P><STRONG><a name="[8b]"></a>IMU::BMI088_WriteReg(unsigned char, unsigned char)</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, imu.o(.text._ZN3IMU15BMI088_WriteRegEhh))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = IMU::BMI088_WriteReg(unsigned char, unsigned char) &rArr; HAL_SPI_Transmit &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
 <BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Transmit
 <LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
-<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
 </UL>
 <BR>[Called By]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[8c]"></a>IMU::IMU_init()</STRONG> (Thumb, 274 bytes, Stack size 32 bytes, imu.o(.text._ZN3IMU8IMU_initEv))
-<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = IMU::IMU_init() &rArr; HAL_SPI_Transmit &rArr; SPI_WaitFlagStateUntilTimeout
+<P><STRONG><a name="[8c]"></a>IMU::IMU_init()</STRONG> (Thumb, 198 bytes, Stack size 24 bytes, imu.o(.text._ZN3IMU8IMU_initEv))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = IMU::IMU_init() &rArr; HAL_SPI_Transmit &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
 <BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Transmit
 <LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
